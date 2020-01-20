@@ -1,0 +1,207 @@
+html, body {  margin: 0;  padding: 0;  height: 100%;  text-align: center; font-family: Helvetica;}
+a   {  text-decoration: none;color: black;}
+li  {  list-style-type: none;}
+
+section {height: auto;}
+
+p   {padding: 0;  margin: 0 25% 0 25%;text-align: justify;font-size: 20px;}
+
+
+hr  {width: 30px; height: 3px; background: #494949; border: 0;margin: 0 auto 0 auto; }
+h1  {font-size: 80px; padding-top: 90px;margin: 0 auto 0 auto;}
+h2  {font-size: 30px; padding-top: 90px;margin: 0 auto 0 auto;color: white;}
+li, #logo {transition: all 300ms;-webkit-transition: all 300ms;-moz-transition: all 300ms;-o-transition: all 300ms; }
+
+/* HEADER *******************************/
+
+header {width: 100%; height: 84px; position: fixed; top: 0; left: 0; background: white; box-shadow: 0 1px 3px rgba(0,0,0,0.1); z-index: 1;}
+
+
+#logo {  width: 200px;  float: left;  margin: 5px 0 0 50px;}
+#logo:hover {  opacity: 0.5;}
+#logo img {  width: 100%;}
+
+header nav{float: right; margin: 17px 50px 0 0;}
+header nav ul li {float: left; margin-left: 16px; font-size:  20px;}
+header nav ul li:hover { padding-top: 5px;}
+
+
+
+/* Timer *******************************/
+
+.timer  {border-collapse:collapse;border-spacing:0;}
+.timer  {text-align: center; margin: 0 auto 0 auto;}
+.timer td {font-family:Arial,
+            sans-serif;
+            font-size:22px;
+            padding:5px 3px;
+            border-style:solid;
+            border-width:1px;
+            overflow:hidden;
+            word-break:normal;}
+
+.timer .timer1{width: 250px;background-color:#cdffff}
+.timer .timer2{background-color:#9aff99}
+
+/* NEUES *******************************/
+
+#Neues { background: url(../img/Hintergrund1.jpg); background-position: center center; background-size: cover; background-attachment: fixed;}
+#Neues {height: 100%; }
+#Neues p{color: white;}
+#Neues h1{color: white;}
+
+.Tabelle  {border-collapse:collapse;border-spacing:0;}
+.Tabelle  {text-align: center; margin: 0 auto 0 auto;}
+.Tabelle td {font-family:Arial,
+            sans-serif;
+            font-size:22px;
+            padding:5px 3px;
+            border-style:solid;
+            border-width:1px;
+            overflow:hidden;
+            word-break:normal;}
+
+.Tabelle .Turnier-1{width: 250px;background-color:#cdffff}
+.Tabelle .Turnier-2{background-color:#9aff99}
+.Tabelle .Turnier-3{background-color:#fffc9e}
+.Tabelle .Turnier-4{background-color:#ffce93}
+.Tabelle .Turnier-5{background-color:#ffccc9}
+.Tabelle .Turnier-6{background-color:#f2f3f4;}
+.Adresse {color: #A9E2F3;}
+
+/* ab2020 *******************************/
+
+#ab2020 {background: url(../img/Hintergrund2.jpg); background-position: center center; background-size: cover; background-attachment: fixed;}
+#ab2020 {height: 100%;}
+
+.BildText2020 {width: 800px;  height: 310px; margin: 0 auto 0 auto;}
+.BildText2020 img {float: left; width: 400px; height: 300px; margin: 5 5 5 5; }
+.BildText2020 p   {background-color:#f2f3f4; float: right; width: 368; height: 300px;
+                    margin: 5 5 5 5; padding: 0 5 0 5; border-style:solid;border-width:1px;}
+
+.Zeit  {border-collapse:collapse;border-spacing:0;}
+.Zeit  {text-align: center; margin: 10 auto 0 auto;}
+.Zeit th {font-family:Arial,sans-serif;font-size:22px;
+          border-style:solid;border-width:1px;
+            overflow:hidden;word-break:normal;
+            padding: 0 5 0 5;}
+.Zeit td {font-family:Arial,sans-serif;font-size:22px;
+          border-style:solid;border-width:1px;
+            overflow:hidden;word-break:normal;}
+
+.Zeit .Zeit1{background-color:#f2f3f4}
+.Zeit .Zeit2{width: auto;background-color:#f2f3f4}
+
+.Text2020 p{background-color: #f2f3f4;width: 800px;margin: 0 auto 0 auto;padding: 1px 10px 1px 10px;border-style:solid;border-width:1px;}
+
+
+
+/* bis2019 *******************************/
+
+#Vergangenes1 { background: url(../img/pokal.jpg); background-position: center center; background-size: cover; background-attachment: fixed; }
+
+.VergangenesX {width: 800px;  height: 1960px; margin: 0 auto 0 auto;}
+.VergangenesX img {float: left; width: 400px; height: 300px; margin: 5 5 5 5; }
+.VergangenesX p   {float: right; width: 380px; height: 300px; margin: 5 5 5 5;}
+
+
+/* Footer *******************************/
+
+#footer {background-color: black; height: 60px;}
+#footer p{color: white;}
+
+/* MEDIA QUERIES *******************************/
+/* MEDIA QUERIES *******************************/
+
+@media all and (max-width: 55em) {
+  p   {font-size: 11px;}
+  h1  {font-size: 40px; padding-top: 38px;margin: 0 auto 0 auto;}
+  h2  {font-size: 15px;}
+
+  /* HEADER-Klein *******************************/
+
+  header {height: 38px;}
+
+  #logo {  width: 90px;  float: left;  margin: 2px 0 0 10px;}
+  #logo img {  width: 100%;}
+
+  header nav{float: right; margin: -4px 10px 0 0;}
+  header nav ul li {margin-left: 5px; font-size: 10px;}
+  header nav ul li:hover { padding-top: 2px;}
+
+  /* NEUES-Klein *******************************/
+
+  #Neues { background: url(../img/Hintergrund1klein.jpg); background-size: 100% auto;}
+  #Neues {height: auto;}
+
+  .Tabelle td {font-size:11px;padding:3px 1px;}
+  .Tabelle .Turnier-1{width: 120px;}
+
+  /* ab2020-Klein *******************************/
+
+  #ab2020    { background: url(../img/Hintergrund2klein.jpg); background-size: 100% auto;}
+  #ab2020  p {width: 288px;padding: 1px 5px 1px 5px;}
+  #ab2020    {height: auto;}
+
+  .BildText2020 {width: 300px;  height: 375; margin: 0 auto ;}
+  .BildText2020 img {float: none; width: 300px; height: 225px; margin: 0; }
+  .BildText2020 p   {float: none; width: 288px; height: auto; margin: 5 0 5 0;}
+  .BildText2020 h1 {padding-top: 10px}
+
+  .Zeit  {margin: 5 auto 0 auto;}
+  .Zeit th {font-size:11px;padding:3px 1px;}
+  .Zeit td {font-size:11px;padding:3px 1px;}
+
+  /* bis2019-Klein *******************************/
+
+  #Vergangenes1 { background: url(../img/pokalklein.jpg); background-size: 100% auto;}
+
+  .VergangenesX {width: 300px;  height: 1740px; margin: 0 auto ;}
+  .VergangenesX img {float: none; width: 300px; height: 225px; margin: 0; }
+  .VergangenesX p   {float: none; width: 300px; height: auto; margin: 5 0 5 0;}
+  .VergangenesX h1 {padding-top: 10px}
+}
+
+/* Zeit *******************************/
+
+
+body .page #timer {
+    margin: 2rem 0 0 0;
+    font-size: 6rem;
+    font-weight: 300;
+    color: #ff6600;
+}
+
+body .page #timer span {
+    margin: 0 4rem 0 0;
+    display: inline-block;
+    text-align: center;
+    line-height: 1.7rem;
+}
+
+body .page #timer span i {
+    font-style: normal;
+    font-size: 1.5rem;
+    color: #666666;
+}
+
+
+/* Kleiner *******************************/
+@media all and (max-width: 55em) {
+
+  body .page #timer {
+      margin: 1rem 0 0 0;
+      font-size: 2rem;
+      font-weight: 100;
+      color: #ff6600;
+  }
+
+  body .page #timer span {
+      margin: 0 1rem 0 0;
+      line-height: .8rem;
+  }
+
+  body .page #timer span i {
+      font-size: .8rem;
+  }
+}

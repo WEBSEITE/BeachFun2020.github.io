@@ -107,7 +107,7 @@ header nav ul li:hover { padding-top: 5px;}
 
 /* Footer *******************************/
 
-#footer {background-color: black; height: 60px;}
+#footer {background-color: black; height: 80px;}
 #footer p{color: white;}
 
 /* MEDIA QUERIES *******************************/
@@ -160,7 +160,14 @@ header nav ul li:hover { padding-top: 5px;}
   .VergangenesX img {float: none; width: 300px; height: 225px; margin: 0; }
   .VergangenesX p   {float: none; width: 300px; height: auto; margin: 5 0 5 0;}
   .VergangenesX h1 {padding-top: 10px}
+
+  /* Footer *******************************/
+
+  #footer {height: 60px;}
 }
+
+
+
 
 /* Zeit *******************************/
 

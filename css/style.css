@@ -9,7 +9,7 @@ p   {padding: 0;  margin: 0 25% 0 25%;text-align: justify;font-size: 20px;}
 
 hr  {width: 30px; height: 3px; background: #494949; border: 0;margin: 0 auto 0 auto; }
 h1  {font-size: 80px; padding-top: 90px;margin: 0 auto 0 auto;}
-h2  {font-size: 30px; padding-top: 90px;margin: 0 auto 0 auto;color: white;}
+h2  {font-size: 30px; padding-top: 60px;margin: 0 auto 0 auto;color: white;}
 li, #logo {transition: all 300ms;-webkit-transition: all 300ms;-moz-transition: all 300ms;-o-transition: all 300ms; }
 
 /* HEADER *******************************/
@@ -46,9 +46,10 @@ header nav ul li:hover { padding-top: 5px;}
 /* NEUES *******************************/
 
 #Neues { background: url(../img/Hintergrund1.jpg); background-position: center center; background-size: cover; background-attachment: fixed;}
-#Neues {height: 100%; }
 #Neues p{color: white;}
 #Neues h1{color: white;}
+
+.standort img {float: left; width: 400px; height: 300px; margin: 5px 25% 05px 25%; }
 
 .Tabelle  {border-collapse:collapse;border-spacing:0;}
 .Tabelle  {text-align: center; margin: 0 auto 0 auto;}
@@ -61,8 +62,8 @@ header nav ul li:hover { padding-top: 5px;}
             overflow:hidden;
             word-break:normal;}
 
-.Tabelle .Turnier-1{width: 250px;background-color:#cdffff}
-.Tabelle .Turnier-2{background-color:#9aff99}
+.Tabelle .Turnier-1{width: 35px;background-color:#cdffff}
+.Tabelle .Turnier-2{width: 220px;background-color:#cdffff}
 .Tabelle .Turnier-3{background-color:#fffc9e}
 .Tabelle .Turnier-4{background-color:#ffce93}
 .Tabelle .Turnier-5{background-color:#ffccc9}
@@ -72,25 +73,14 @@ header nav ul li:hover { padding-top: 5px;}
 /* ab2020 *******************************/
 
 #ab2020 {background: url(../img/Hintergrund2.jpg); background-position: center center; background-size: cover; background-attachment: fixed;}
-#ab2020 {height: 100%;}
 
-.BildText2020 {width: 800px;  height: 310px; margin: 0 auto 0 auto;}
+
+.BildText2020 {width: 800px;  height: 610px; margin: 0 auto 0 auto;}
 .BildText2020 img {float: left; width: 400px; height: 300px; margin: 5 5 5 5; }
 .BildText2020 p   {background-color:#f2f3f4; float: right; width: 368; height: 300px;
                     margin: 5 5 5 5; padding: 0 5 0 5; border-style:solid;border-width:1px;}
 
-.Zeit  {border-collapse:collapse;border-spacing:0;}
-.Zeit  {text-align: center; margin: 10 auto 0 auto;}
-.Zeit th {font-family:Arial,sans-serif;font-size:22px;
-          border-style:solid;border-width:1px;
-            overflow:hidden;word-break:normal;
-            padding: 0 5 0 5;}
-.Zeit td {font-family:Arial,sans-serif;font-size:22px;
-          border-style:solid;border-width:1px;
-            overflow:hidden;word-break:normal;}
 
-.Zeit .Zeit1{background-color:#f2f3f4}
-.Zeit .Zeit2{width: auto;background-color:#f2f3f4}
 
 .Text2020 p{background-color: #f2f3f4;width: 800px;margin: 0 auto 0 auto;padding: 1px 10px 1px 10px;border-style:solid;border-width:1px;}
 
@@ -134,29 +124,28 @@ header nav ul li:hover { padding-top: 5px;}
   #Neues { background: url(../img/Hintergrund1klein.jpg); background-size: 100% auto;}
   #Neues {height: auto;}
 
+  .standort img {float: none; width: 300px; height: 225px; margin: 0;  }
+
   .Tabelle td {font-size:11px;padding:3px 1px;}
-  .Tabelle .Turnier-1{width: 120px;}
+  .Tabelle .Turnier-1{width: 25px;}
+  .Tabelle .Turnier-2{width: 150px;}
 
   /* ab2020-Klein *******************************/
 
   #ab2020    { background: url(../img/Hintergrund2klein.jpg); background-size: 100% auto;}
   #ab2020  p {width: 288px;padding: 1px 5px 1px 5px;}
-  #ab2020    {height: auto;}
 
-  .BildText2020 {width: 300px;  height: 375; margin: 0 auto ;}
+
+  .BildText2020 {width: 300px;  height: 670px; margin: 0 auto ;}
   .BildText2020 img {float: none; width: 300px; height: 225px; margin: 0; }
   .BildText2020 p   {float: none; width: 288px; height: auto; margin: 5px 0 5px 0;}
   .BildText2020 h1 {padding-top: 10px}
-
-  .Zeit  {margin: 5 auto 0 auto;}
-  .Zeit th {font-size:11px;padding:3px 1px;}
-  .Zeit td {font-size:11px;padding:3px 1px;}
 
   /* bis2019-Klein *******************************/
 
   #Vergangenes1 { background: url(../img/pokalklein.jpg); background-size: 100% auto;}
 
-  .VergangenesX {width: 300px;  height: 1740px; margin: 0 auto ;}
+  .VergangenesX {width: 300px;  height: 1780px; margin: 0 auto ;}
   .VergangenesX img {float: none; width: 300px; height: 225px; margin: 0; }
   .VergangenesX p   {float: none; width: 300px; height: auto; margin: 5px 0 5px 0;}
   .VergangenesX h1 {padding-top: 10px}

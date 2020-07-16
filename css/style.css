@@ -49,7 +49,7 @@ header nav ul li:hover { padding-top: 5px;}
 #Neues p{color: white;}
 #Neues h1{color: white;}
 
-.standort img {float: left; width: 400px; height: 300px; margin: 5px 25% 05px 25%; }
+.standort img {float: none; width: 400px; height: 300px; margin: 5px 25% 05px 25%; }
 
 .Tabelle  {border-collapse:collapse;border-spacing:0;}
 .Tabelle  {text-align: center; margin: 0 auto 0 auto;}

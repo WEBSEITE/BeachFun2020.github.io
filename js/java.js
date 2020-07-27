@@ -1,4 +1,4 @@
-var ReleaseDate = new Date("Aug 9, 2020 17:00:00").getTime();
+var ReleaseDate = new Date("Aug 15, 2020 11:00:00").getTime();
 var TimerFunction = setInterval(function() {
     var DatumHeute = new Date().getTime();
     var Differenz = ReleaseDate - DatumHeute;

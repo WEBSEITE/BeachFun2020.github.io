@@ -51,6 +51,8 @@ header nav ul li:hover { padding-top: 5px;}
 
 .standort img {float: none; width: 400px; height: 300px; margin: 5px 25% 05px 25%; }
 
+.zaehler table {color: white;float: none; width: 400px; height: 300px; margin: 5px 25% 05px 25%; }
+
 .Tabelle  {border-collapse:collapse;border-spacing:0;}
 .Tabelle  {text-align: center; margin: 0 auto 0 auto;}
 .Tabelle td {font-family:Arial,
@@ -90,7 +92,7 @@ header nav ul li:hover { padding-top: 5px;}
 
 #Vergangenes1 { background: url(../img/pokal.jpg); background-position: center center; background-size: cover; background-attachment: fixed; }
 
-.VergangenesX {width: 800px;  height: 1960px; margin: 0 auto 0 auto;}
+.VergangenesX {width: 800px;  height: 2040px; margin: 0 auto 0 auto;}
 .VergangenesX img {float: left; width: 400px; height: 300px; margin: 5px; }
 .VergangenesX p   {float: right; width: 380px; height: 300px; margin: 5px;}
 
@@ -145,7 +147,7 @@ header nav ul li:hover { padding-top: 5px;}
 
   #Vergangenes1 { background: url(../img/pokalklein.jpg); background-size: 100% auto;}
 
-  .VergangenesX {width: 300px;  height: 1800px; margin: 0 auto ;}
+  .VergangenesX {width: 300px;  height: 1820px; margin: 0 auto ;}
   .VergangenesX img {float: none; width: 300px; height: 225px; margin: 0; }
   .VergangenesX p   {float: none; width: 300px; height: auto; margin: 5px 0 5px 0;}
   .VergangenesX h1 {padding-top: 10px}
